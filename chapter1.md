@@ -4,7 +4,7 @@ description: 'Chapter description goes here.'
 free_preview: true
 ---
 
-## Origins of LP
+## Intro to Linear Programming (LP)
 
 ```yaml
 type: VideoExercise
