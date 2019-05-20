@@ -30,11 +30,14 @@ key: "f5aab26d66"
 
 `@part1`
 - During WWII, LP was used for planning complex wartime operations. In 1939 the U.S.S.R. neglected an extensive proposal for linear inequality systems  by one Kantorovich, these papers where only discovered by the west in the late 1950's.
-- The generalized simplex method was initially conceived of in 1947 [by George B. Dantzig.](https://apps.dtic.mil/dtic/tr/fulltext/u2/a112060.pdf)
- > The ability to state general objectives and then find optimal policy
-solutions to practical decision problems of great complexity is a revolutionary development. 
 - Postwar industrialization saw a significant rise in LP use throughout most industries
-> Linear Programming is viewed as a revolutionary development giving us the ability for the first time to state general objectives and to find, by means of the simplex method, optimal policy decisions to practical decision problems of great complexity
+- The generalized simplex method was initially conceived of in 1947 [by George B. Dantzig.](https://apps.dtic.mil/dtic/tr/fulltext/u2/a112060.pdf)
+  >The ability to state general objectives and then find optimal policy
+solutions to practical decision problems of great complexity is a revolutionary development. (Dantzig, 1981)
+
+> In retrospect it is interesting to note that the original problem
+that started my research Is still outstanding -- namely the problem of
+planning or scheduling dynamically over time. (1981)
 
 
 `@citations`
@@ -59,10 +62,6 @@ the objective not the objective Itself.
 (3) Inventing the simplex method which transformed a rather
 interesting approach to economic theory into a basic tool for
 practical planning of large complex systems.
-
-In retrospect it is interesting to note that the original problem
-that started my research Is still outstanding -- namely the problem of
-planning or scheduling dynamically over time.
 
 
 ---
