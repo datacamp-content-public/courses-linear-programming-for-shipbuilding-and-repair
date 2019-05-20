@@ -4,7 +4,7 @@ description: 'Chapter description goes here.'
 free_preview: true
 ---
 
-## Insert exercise title here
+## Origins of LP
 
 ```yaml
 type: VideoExercise
@@ -62,3 +62,23 @@ Result <- a+b
 ex() %>% check_object("Result") %>% check_equal()
 success_msg("Nice work!")
 ```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: PureMultipleChoiceExercise
+key: b39a5d82ef
+xp: 50
+```
+
+
+
+`@hint`
+
+
+`@possible_answers`
+[]
+
+`@feedback`
