@@ -20,6 +20,29 @@ title: Instructor
 
 
 ---
+## What is linear programming?	
+
+```yaml
+type: "FullSlide"
+key: "096a744d9e"
+```
+
+`@part1`
+Linear programming is an optimization technique that uses a few inputs to determine the best way to accomplish a task.  The task could be to increase throughput, decrease cost or minimize downtime.  The inputs to linear programming are:
+- What is being optimized?
+- What are the constraints?
+- What are the variables?
+
+
+`@citations`
+[Illustrated Guide to Linear Programming](https://www.amazon.com/Illustrated-Guide-Linear-Programming/dp/0486262588)
+
+
+`@script`
+
+
+
+---
 ## Let's practice!
 
 ```yaml
