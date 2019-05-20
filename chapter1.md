@@ -40,10 +40,11 @@ b <- 5
 c <- 4
 d <- 6
 Result <- a+b
+
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_expr(Result == 10)
+ex() %>% check_object("Result") %>% check_equal()
 success_msg("Nice work!")
 ```
