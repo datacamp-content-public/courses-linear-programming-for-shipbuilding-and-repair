@@ -44,5 +44,5 @@ Result <- a+b
 
 `@sct`
 ```{r}
-!is.null(Result) && Result == 10
+check_expr(Result == 10)
 ```
