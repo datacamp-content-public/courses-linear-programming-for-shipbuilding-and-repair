@@ -29,14 +29,16 @@ key: "f5aab26d66"
 ```
 
 `@part1`
-- Initially [George B. Dantzig](https://apps.dtic.mil/dtic/tr/fulltext/u2/702054.pdf) 
+- The simplex method was initially conceived of in 1947 by [George B. Dantzig](https://apps.dtic.mil/dtic/tr/fulltext/u2/a112060.pdf) 
  - During WWII, LP was used for planning complex wartime operations.
+ - In 1939 the U.S.S.R. neglected an extensive proposal for linear inequality systems  by one Kantorovich, these papers where only discovered by the west in the late 1950's.
 - Postwar industrialization saw a significant rise in LP use throughout most industries
+> Linear Programming is viewed as a revolutionary development giving us the ability for the first time to state general objectives and to find, by means of the simplex method, optimal policy decisions to practical decision problems of great complexity
 - Artificial intelligence and machine learning frequently us LP concepts
 
 
 `@citations`
-George B. Dantzing,"LARGE SCALE LINEAR PROGRAMMING" Operational Research House, 1967-8, University of California Stanford, November 1967 (apps.dtic.mil/dtic/tr/fulltext/u2/702054.pdf)
+- George B. Dantzing,"REMINISCENCES ABOUT THE ORIGINS OF LINEAR PROGRAMMING" apps.dtic.mil/dtic/tr/fulltext/u2/a112060.pdf , 1981
 
 
 `@script`
