@@ -33,9 +33,7 @@ Linear programming is an optimization technique that uses a few inputs to determ
 - What are the constraints?
 - What are the variables?
 
-
-`@citations`
-[Illustrated Guide to Linear Programming](https://www.amazon.com/Illustrated-Guide-Linear-Programming/dp/0486262588)
+For this course we are working through the text [Illustrated Guide to Linear Programming](https://www.amazon.com/Illustrated-Guide-Linear-Programming/dp/0486262588)
 
 
 `@script`
