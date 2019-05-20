@@ -1,5 +1,4 @@
 title: Linear Programming for Shipbuilding and Repair
-description: Course description goes here.
+description: First course in optimization targeted to the shipbuilding and repair audience.
 programming_language: r
-from: "r-base-prod:v1.0.2"
-#from: "tidyverse-base-prod:v1.0.2"
+from: 'r-base-prod:v1.0.2'
