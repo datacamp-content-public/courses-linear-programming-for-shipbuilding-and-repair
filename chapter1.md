@@ -7,6 +7,19 @@ free_preview: true
 ## Insert exercise title here
 
 ```yaml
+type: VideoExercise
+key: 2b9366ef51
+xp: 50
+```
+
+`@projector_key`
+edd24b8eafc99896f248da104c80d0ac
+
+---
+
+## Warm up with an example
+
+```yaml
 type: NormalExercise
 key: 8bd3d4c11c
 xp: 100
@@ -40,7 +53,8 @@ b <- 5
 c <- 4
 d <- 6
 Result <- a+b
-
+# or 
+# Result <- c+d
 ```
 
 `@sct`
