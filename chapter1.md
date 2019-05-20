@@ -45,4 +45,5 @@ Result <- a+b
 `@sct`
 ```{r}
 ex() %>% check_expr(Result == 10)
+success_msg("Nice work!")
 ```
