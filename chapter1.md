@@ -44,5 +44,5 @@ Result <- a+b
 
 `@sct`
 ```{r}
-check_expr(Result == 10)
+ex() %>% check_expr(Result == 10)
 ```
