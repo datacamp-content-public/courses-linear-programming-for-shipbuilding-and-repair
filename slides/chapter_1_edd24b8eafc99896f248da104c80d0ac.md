@@ -122,6 +122,40 @@ A space holds three space types (A, B, C) and can have a maximum of 10 spaces to
 
 
 ---
+## Top three goals of this training
+
+```yaml
+type: "FullSlide"
+key: "0453ecfea1"
+```
+
+`@part1`
+1.	Apply linear programming calculations to high bay and determine the maximum theoretical high bay throughput
+2.	Apply linear programming calculations to classroom size and determine the maximum theoretical classroom throughput
+3.	Build combined model to determine maximum theoretical student throughput based on previous two sets of analysis
+
+
+`@script`
+
+
+
+---
+## Solution process in Excel Solver
+
+```yaml
+type: "FullSlide"
+key: "761acaf78c"
+```
+
+`@part1`
+![Solution Process in Excel Sover](https://assets.datacamp.com/production/repositories/5020/datasets/09fb3c892bcdbf9f773d7f98acb58bbdc2941e11/Solution%20process%20in%20Excel%20Sover.png)
+
+
+`@script`
+
+
+
+---
 ## Additional early reading (with links and year) : Defense Technical Information Center (DTIC)
 
 ```yaml
