@@ -110,9 +110,11 @@ There are many optimization algorithms available. However, some methods are only
 ```yaml
 type: "FullSlide"
 key: "2ab96b6b74"
+hide_title: true
 ```
 
 `@part1`
+# Example
 A space holds three space types (A, B, C) and can have a maximum of 10 spaces total (They are all the same size).  Management wants to maximize throughput and the constraints are that each student needs to perform one of each space.  Space A takes 2 hours, B takes 4 hours and C takes 8 hours.
 ![Management Group 1 vs 2, where 2 Maximizes throughput using LP.](https://assets.datacamp.com/production/repositories/5020/datasets/2fdcb325a1966105546b7ca048a000562490da65/LpStudentThroughputExample.png)
 
@@ -172,6 +174,10 @@ res <- ROI_solve( op )
 res
 sol <- solution( res )
 ```
+
+
+`@citations`
+https://cran.r%2Dproject.org/web/packages/ROI/ROI.pdf
 
 
 `@script`
