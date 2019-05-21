@@ -29,15 +29,14 @@ key: "f5aab26d66"
 ```
 
 `@part1`
-- During WWII, LP was used for planning complex wartime operations. In 1939 the U.S.S.R. neglected an extensive proposal for linear inequality systems  by one Kantorovich, these papers where only discovered by the west in the late 1950's.
-- Postwar industrialization saw a significant rise in LP use throughout most industries
+- The invention of LP is attributed to several individuals who discovered independently. In 1939 by Leonid Kantorovich, then by T. C. Koopmans, also by Wassily Leontief, and greatly simplified in 1947 by George B. Dantzig's simplex method.
+- During WWII, LP was used by the US for planning complex wartime operations. 
+- Postwar industrialization saw a significant rise in LP use throughout most industries.
 - The generalized simplex method was initially conceived of in 1947 [by George B. Dantzig.](https://apps.dtic.mil/dtic/tr/fulltext/u2/a112060.pdf)
-  >The ability to state general objectives and then find optimal policy
-solutions to practical decision problems of great complexity is a revolutionary development. (Dantzig, 1981)
-
-> In retrospect it is interesting to note that the original problem
+  >"The ability to state general objectives and then find optimal policy
+solutions to practical decision problems of great complexity is a revolutionary development." ... "In retrospect it is interesting to note that the original problem
 that started my research Is still outstanding -- namely the problem of
-planning or scheduling dynamically over time. (1981)
+planning or scheduling dynamically over time." (Dantzig, 1981)
 
 
 `@citations`
@@ -45,6 +44,8 @@ planning or scheduling dynamically over time. (1981)
 
 
 `@script`
+The U.S.S.R. neglected Kantorovich's extensive proposal for linear inequality systems and was not recognised by soviet authorities until 1965. His papers where only widely known by the west in the late 1950's.
+
 Dantzig Generalized the work in 1932 by Wassily Leontief of work called the simplex matrix structure. He updated it from a one-to-one correspondance of input/output, in a steady-state model to a to a dynamic model that accepted many alternative activities, worked on a large scale and was computable. 
 
 Linear programming evolved out of the U.A. Air Force interest in 1947 in finding optimal time-staged deployment plans in case of war.
@@ -62,29 +63,6 @@ the objective not the objective Itself.
 (3) Inventing the simplex method which transformed a rather
 interesting approach to economic theory into a basic tool for
 practical planning of large complex systems.
-
-
----
-## Additional Reading (With Links and year) : Defense Technical Information Center (DTIC)
-
-```yaml
-type: "FullSlide"
-key: "f7761ac121"
-```
-
-`@part1`
-- [On Some Dynamic Linear Programming Problems](https://apps.dtic.mil/dtic/tr/fulltext/u2/603981.pdf) Richard Bellman (August 1951)
-- [On the Significance of Solving Linear Programming Problems with some Integer Variables](https://apps.dtic.mil/dtic/tr/fulltext/u2/607024.pdf) George B. Dantzig (April 1959)
-- [The Decomposition Algorithm for Linear Programming](https://apps.dtic.mil/dtic/tr/fulltext/u2/263628.pdf) George B. Dantzig (September 1961)
-- [Simplex Method and Theory](https://apps.dtic.mil/dtic/tr/fulltext/u2/277519.pdf) A.W.Tucker (July 1962)
-[Large Scale Linear Programming](https://apps.dtic.mil/dtic/tr/fulltext/u2/702054.pdf) George B. Dantzig (November 1967)
-- [Solving Starcase Linear Programs by the Simplex Method,1: Inversion ](https://apps.dtic.mil/dtic/tr/fulltext/u2/a081713.pdf) Robert Fourer (November 1979)
-- [A Linear Programming Approach to a Simple Linear Regression Problem with Least Absolute Value Criterion](https://apps.dtic.mil/dtic/tr/fulltext/u2/a078622.pdf) (December 1979)
-- [A Linear Programming Approach to a Simple Linear Regression Problem with Least Absolute Value Criterion](https://apps.dtic.mil/dtic/tr/fulltext/u2/a078622.pdf) (December 1979)
-
-
-`@script`
-
 
 
 ---
@@ -111,7 +89,23 @@ For this course we are working through the text [Illustrated Guide to Linear Pro
 
 
 ---
-## Example
+##  Optimization Models are Prescriptive
+
+```yaml
+type: "FullSlide"
+key: "c762259084"
+```
+
+`@part1`
+![Types of Analytics](https://assets.datacamp.com/production/repositories/5020/datasets/9e3f9dab9f9446658c1937526d285dfe0da4f3a0/Analytics%20Optimization%20Difficulty%20vs%20Value.png)
+
+
+`@script`
+There are many optimization algorithms available. However, some methods are only appropriate for certain types of problems. It is important to be able to recognize the characteristics of a problem and identify an appropriate solution technique. Within each class of problems, there are different minimization methods, which vary in computational requirements, convergence properties, and so on. Optimization problems are classified according to the mathematical characteristics of the objective function, the constraints, and the controllable decision variables.
+
+
+---
+## Example problem
 
 ```yaml
 type: "FullSlide"
@@ -119,9 +113,30 @@ key: "2ab96b6b74"
 ```
 
 `@part1`
-A space holds three space types (A, B, C) and can have a maximum of 10 spaces total (They are all the same size).  Management wants to maximize throughput and the constraints are that each student needs to perform one of each space.  Space A takes 2 hours, B takes 4 hours and C takes 8 hours.  
-Results:
-![Management Group 1 vs 2, where 2 Maximizes throughput using LP.](https://assets.datacamp.com/production/repositories/5020/datasets/3f84e471e2417ca82c0f58e7acb694c9f219354d/LpStudentThroughputExample.png)
+A space holds three space types (A, B, C) and can have a maximum of 10 spaces total (They are all the same size).  Management wants to maximize throughput and the constraints are that each student needs to perform one of each space.  Space A takes 2 hours, B takes 4 hours and C takes 8 hours.
+![Management Group 1 vs 2, where 2 Maximizes throughput using LP.](https://assets.datacamp.com/production/repositories/5020/datasets/2fdcb325a1966105546b7ca048a000562490da65/LpStudentThroughputExample.png)
+
+
+`@script`
+
+
+
+---
+## Additional early reading (with links and year) : Defense Technical Information Center (DTIC)
+
+```yaml
+type: "FullSlide"
+key: "f7761ac121"
+```
+
+`@part1`
+- [On Some Dynamic Linear Programming Problems](https://apps.dtic.mil/dtic/tr/fulltext/u2/603981.pdf) Richard Bellman (August 1951)
+- [Significance of Solving Linear Programming Problems w/ some Integer Variables](https://apps.dtic.mil/dtic/tr/fulltext/u2/607024.pdf) Dantzig (1959)
+- [The Decomposition Algorithm for Linear Programming](https://apps.dtic.mil/dtic/tr/fulltext/u2/263628.pdf) George B. Dantzig (September 1961)
+- [Simplex Method and Theory](https://apps.dtic.mil/dtic/tr/fulltext/u2/277519.pdf) A.W.Tucker (July 1962)
+- [Large Scale Linear Programming](https://apps.dtic.mil/dtic/tr/fulltext/u2/702054.pdf) George B. Dantzig (November 1967)
+- [Solving Starcase Linear Programs by the Simplex Method,1: Inversion ](https://apps.dtic.mil/dtic/tr/fulltext/u2/a081713.pdf) Robert Fourer (1979)
+- [A Linear Programming Approach to a Simple Linear Regression Problem with Least Absolute Value Criterion](https://apps.dtic.mil/dtic/tr/fulltext/u2/a078622.pdf) R. D. Armstrong (December 1979)
 
 
 `@script`
