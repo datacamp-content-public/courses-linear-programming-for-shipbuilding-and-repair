@@ -134,9 +134,9 @@ Does the problem make sense?  In this case, yes the problem makes sense, but wha
 
 At this step, it is a good idea to ask some probing questions.  For example, how often can we change the space design from A to B or C?  How long does it take to switch from one space type to another?  How much does it cost?
 
-Now we need to establish constraints.  Can we train negative students?  No, the minimum number of training events is zero.  How about fractional students?  Every environment is different, but in this case we will say each student must fully complete the event they started in the day they started it. Each event must occur in a continuous time block.
+Now we need to establish constraints.  Can we train negative students?  No, the minimum number of training events is zero.  How about fractional students?  Every environment is different, but in this case we will say each student must fully complete the event they started in the day they started it. Each event must occur in a continuous time block.  The combined effect of the constraints in this paragraph mean the quantity of events is greater than zero and they must be integers.
 
-Can students work more hours than instructors?  No, the student hours are capped at the instructor hours.
+Can students work more hours than instructors?  No, the student hours are capped at the instructor hours and in this example, instructors only work an eight hour day on one shift.  Furthermore, the staff to student ratio is
 
 
 ---
