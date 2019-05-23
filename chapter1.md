@@ -65,7 +65,7 @@ success_msg("Nice work!")
 
 ---
 
-## Insert exercise title here
+## Multiple Choice Questions
 
 ```yaml
 type: PureMultipleChoiceExercise

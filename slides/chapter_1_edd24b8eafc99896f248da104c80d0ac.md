@@ -105,7 +105,7 @@ There are many optimization algorithms available. However, some methods are only
 
 Within each class of problems, there are different minimization methods, which vary in computational requirements, convergence properties, and so on. Optimization problems are classified according to the mathematical characteristics of the objective function, the constraints, and the controllable decision variables.
 
-In this course we will be focused on problems that have a linear relationship between the dependent and response variables.  Prior to jumping into any linear programming problem, the first step is to look at the information provided to determine if there is a linear relationship
+In this course we will be focused on problems that have a linear relationship between the dependent and response variables.  Prior to jumping into any linear programming problem, the first step is to look at the information provided to determine if there is a linear relationship.
 
 
 ---
@@ -124,7 +124,13 @@ A space holds three space types (A, B, C) and can have a maximum of 10 spaces to
 
 
 `@script`
+Is this a linear relationship?  In this case we see that as instructor labor increases, regardless of which event they are performing, there is a linear increase in the output of student throughput.  This means we can proceed with linear programming.
 
+Is this a maximization or minimization problem?  This is a maximization problem where we are looking for students to have A and B and C.  
+
+Does the problem make sense?  In this case, yes the problem makes sense, but what if we only had room for two spaces and they cannot be converted each day.  In this case, the question could not be solved and it would be a nonsense question.  What if we had room for three spaces and each space had a tool that students performing A's should not see?  Again, this is a nonsense question.  It may seem strange to ask a question that doesn't make sense, but this type of situation does happen when developing new manufacturing or training spaces.
+
+At this step, it is a good idea to ask some probing questions.  For example, how often can we change the space design from A to B or C?  How long does it take to switch from one space type to another?  How much does it cost?
 
 
 ---
@@ -136,7 +142,7 @@ key: "0453ecfea1"
 ```
 
 `@part1`
-1.	Apply linear programming calculations to high bay and determine the maximum theoretical high bay throughput
+1.	Apply linear programming calculations to training space and determine the maximum theoretical training space throughput
 2.	Apply linear programming calculations to classroom size and determine the maximum theoretical classroom throughput
 3.	Build combined model to determine maximum theoretical student throughput based on previous two sets of analysis
 
