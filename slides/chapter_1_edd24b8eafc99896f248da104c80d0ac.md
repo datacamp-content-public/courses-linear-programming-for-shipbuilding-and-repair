@@ -12,7 +12,7 @@ key: "d8f53a346e"
 
 `@lower_third`
 
-name: Bill Young & Jeremy Gerdes
+name: Bill Young, MBA & Jeremy Gerdes
 title: Health Physicists at NNSY
 
 
@@ -44,9 +44,9 @@ planning or scheduling dynamically over time." (Dantzig, 1981)
 
 
 `@script`
-The U.S.S.R. neglected Kantorovich's extensive proposal for linear inequality systems and was not recognised by soviet authorities until 1965. His papers where only widely known by the west in the late 1950's.
+The U.S.S.R. neglected Kantorovich's extensive proposal for linear inequality systems and was not recognized by soviet authorities until 1965. His papers where only widely known by the west in the late 1950's.
 
-Dantzig Generalized the work in 1932 by Wassily Leontief of work called the simplex matrix structure. He updated it from a one-to-one correspondance of input/output, in a steady-state model to a to a dynamic model that accepted many alternative activities, worked on a large scale and was computable. 
+Dantzig Generalized the work in 1932 by Wassily Leontief of work called the simplex matrix structure. He updated it from a one-to-one correspondence of input/output, in a steady-state model to a to a dynamic model that accepted many alternative activities, worked on a large scale and was computable. 
 
 Linear programming evolved out of the U.A. Air Force interest in 1947 in finding optimal time-staged deployment plans in case of war.
 
@@ -66,7 +66,7 @@ practical planning of large complex systems.
 
 
 ---
-## What is linear programming?	
+## What is linear programming?
 
 ```yaml
 type: "FullSlide"
@@ -89,7 +89,7 @@ For this course we are working through the text [Illustrated Guide to Linear Pro
 
 
 ---
-##  Optimization Models are Prescriptive
+## Optimization Models are Prescriptive
 
 ```yaml
 type: "FullSlide"
@@ -101,7 +101,11 @@ key: "c762259084"
 
 
 `@script`
-There are many optimization algorithms available. However, some methods are only appropriate for certain types of problems. It is important to be able to recognize the characteristics of a problem and identify an appropriate solution technique. Within each class of problems, there are different minimization methods, which vary in computational requirements, convergence properties, and so on. Optimization problems are classified according to the mathematical characteristics of the objective function, the constraints, and the controllable decision variables.
+There are many optimization algorithms available. However, some methods are only appropriate for certain types of problems. It is important to be able to recognize the characteristics of a problem and identify an appropriate solution technique. 
+
+Within each class of problems, there are different minimization methods, which vary in computational requirements, convergence properties, and so on. Optimization problems are classified according to the mathematical characteristics of the objective function, the constraints, and the controllable decision variables.
+
+In this course we will be focused on problems that have a linear relationship between the dependent and response variables.  Prior to jumping into any linear programming problem, the first step is to look at the information provided to determine if there is a linear relationship
 
 
 ---
