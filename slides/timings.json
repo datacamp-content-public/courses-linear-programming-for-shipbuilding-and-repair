@@ -1,3 +1,60 @@
 {
-  "slides/chapter_1_edd24b8eafc99896f248da104c80d0ac.md": []
+  "slides/chapter_1_edd24b8eafc99896f248da104c80d0ac.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.0330988868235547,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.04220232641941617,
+      "state": {
+        "indexh": 1,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.27337098621871997,
+      "state": {
+        "indexh": 2,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.4733349042111209,
+      "state": {
+        "indexh": 3,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.5742910804196639,
+      "state": {
+        "indexh": 4,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.756061781787393,
+      "state": {
+        "indexh": 5,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.8685282848166689,
+      "state": {
+        "indexh": 6,
+        "indexf": -1
+      }
+    }
+  ]
 }
