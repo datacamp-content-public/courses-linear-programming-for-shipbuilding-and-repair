@@ -62,23 +62,3 @@ Result <- a+b
 ex() %>% check_object("Result") %>% check_equal()
 success_msg("Nice work!")
 ```
-
----
-
-## Multiple Choice Questions
-
-```yaml
-type: PureMultipleChoiceExercise
-key: b39a5d82ef
-xp: 50
-```
-
-
-
-`@hint`
-
-
-`@possible_answers`
-[]
-
-`@feedback`
