@@ -174,7 +174,7 @@ key: "761acaf78c"
 
 
 ---
-## Solution Process in R
+## Setup for a Solution Process in R
 
 ```yaml
 type: "FullSlide"
@@ -182,8 +182,74 @@ key: "fba1d0710e"
 ```
 
 `@part1`
+install.packages("ROI")
+install.packages("ROI.plugin.lpsolve")
+
+library(ROI)
+library(ROI.plugin.lpsolve)
+
+# See http://roi.r-forge.r-project.org/introduction.html
+#######################################################
+## Simple linear program.
+## maximize: 2 x_1 + 4 x_2 + 3 x_3
+## subject to: 3 x_1 + 4 x_2 + 2 x_3 <= 60
+## 2 x_1 + x_2 + x_3 <= 40
+## x_1 + 3 x_2 + 2 x_3 <= 80
+## x_1, x_2, x_3 are non-negative real numbers
+
+
+`@citations`
+http://epub.wu.ac.at/5858/1/ROI_StatReport.pdf
+
+https://cran.r-project.org/web/packages/ROI/ROI.pdf
+
+https://upcommons.upc.edu/bitstream/handle/2117/78335/Modeling+and+Solving+Linear+Programming+with+R.pdf;jsessionid=912B09158CC1EF4C852A542456F0B8A2?sequence=1
+
+
+`@script`
+
+
+
+---
+## The example solution code:
+
+```yaml
+type: "FullSlide"
+key: "e4667b68e1"
+hide_title: false
 ```
-install.packages("ROI");install.packages("ROI.plugin.lpsolve")
+
+`@part1`
+```
+my.lp.objective <- c(2,4,3)
+my.lp.constraints.lhs <-matrix(c(3, 2, 1, 4, 1, 3, 2, 2, 2), 
+	nrow = 3)
+my.lp.constraints <- L_constraint(
+	L = my.lp.constraints.lhs,
+    dir = rep_len("<=", rnum(my.lp.constraints.lhs)),
+    rhs = c(60, 40, 80))
+LP <- OP(my.lp.objective,my.lp.constraints,max = TRUE,
+	types = rep_len("I",length(my.lp.constraints)))
+sol <- ROI_solve(LP, solver = "lpsolve")
+solution(sol, type = "msg")
+```
+
+
+`@script`
+
+
+
+---
+## R solution from file
+
+```yaml
+type: "FullSlide"
+key: "7b905424c2"
+```
+
+`@part1`
+Create op.txt file as a LP problem.
+```
 library(ROI);library(ROI.plugin.lpsolve)
 op <- ROI_read("op.txt","lp_lpsolve",solver="lpsolve")
 res <- ROI_solve( op )
@@ -192,46 +258,8 @@ sol <- solution( res )
 ```
 
 
-`@citations`
-https://cran.r%2Dproject.org/web/packages/ROI/ROI.pdf
-
-
 `@script`
-## Rosenbrock Banana Function
-## -----------------------------------------
-## objective
-f <- function(x) {
-return( 100 * (x[2] - x[1] * x[1])^2 + (1 - x[1])^2 )
-}
-## gradient
-g <- function(x) {
-return( c( -400 * x[1] * (x[2] - x[1] * x[1]) - 2 * (1 - x[1]),
-200 * (x[2] - x[1] * x[1])) )
-}
-## bounds
-b <- V_bound(li = 1:2, ui = 1:2, lb = c(-3, -3), ub = c(3, 3))
-op <- OP( objective = F_objective(f, n = 2L, G = g),
-bounds = b )
-res <- ROI_solve( op, solver = "nlminb", control = list(start = c( -1.2, 1 )) )
-solution( res )
-## Portfolio optimization - minimum variance
-## -----------------------------------------
-## get monthly returns of 30 US stocks
-data( US30 )
-r <- na.omit( US30 )
-## objective function to minimize
-obj <- Q_objective( 2*cov(r) )
-## full investment constraint
-full_invest <- L_constraint( rep(1, ncol(US30)), "==", 1 )
-## create optimization problem / long-only
-op <- OP( objective = obj, constraints = full_invest )
-## solve the problem - only works if a QP solver is registered
-## Not run:
-res <- ROI_solve( op )
-res
-sol <- solution( res )
-names( sol ) <- colnames( US30 )
-round( sol[ which(sol
+
 
 
 ---
