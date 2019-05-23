@@ -107,7 +107,7 @@ There are many optimization algorithms available. However, some methods are only
 
 Within each class of problems, there are different minimization methods, which vary in computational requirements, convergence properties, and so on. Optimization problems are classified according to the mathematical characteristics of the objective function, the constraints, and the controllable decision variables.
 
-In this course we will be focused on problems that have a linear relationship between the dependent and response variables.  Prior to jumping into any linear programming problem, the first step is to look at the information provided to determine if there is a linear relationship.
+In this course we will only be focused on problems that have a linear relationship between the dependent and response variables.  Prior to jumping into any linear programming problem, the first step is to look at the information provided to determine if there is a linear relationship.
 
 
 ---
@@ -133,6 +133,10 @@ Is this a maximization or minimization problem?  This is a maximization problem 
 Does the problem make sense?  In this case, yes the problem makes sense, but what if we only had room for two spaces and they cannot be converted each day.  In this case, the question could not be solved and it would be a nonsense question.  What if we had room for three spaces and each space had a tool that students performing A's should not see?  Again, this is a nonsense question.  It may seem strange to ask a question that doesn't make sense, but this type of situation does happen when developing new manufacturing or training spaces.
 
 At this step, it is a good idea to ask some probing questions.  For example, how often can we change the space design from A to B or C?  How long does it take to switch from one space type to another?  How much does it cost?
+
+Now we need to establish constraints.  Can we train negative students?  No, the minimum number of training events is zero.  How about fractional students?  Every environment is different, but in this case we will say each student must fully complete the event they started in the day they started it. Each event must occur in a continuous time block.
+
+Can students work more hours than instructors?  No, the student hours are capped at the instructor hours.
 
 
 ---
