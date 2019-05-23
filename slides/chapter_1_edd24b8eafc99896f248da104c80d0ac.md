@@ -1,6 +1,8 @@
 ---
 title: Insert title here
 key: edd24b8eafc99896f248da104c80d0ac
+video_link:
+  mp3: https://assets.datacamp.com/production/repositories/5020/datasets/be5197ecebed0705d03427f9d8425a5299ed99eb/Du_gamla_du_fria.mp3
 
 ---
 ## Intro to Linear Programming (LP)
