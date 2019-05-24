@@ -182,12 +182,9 @@ key: "fba1d0710e"
 ```
 
 `@part1`
-install.packages("ROI")
-install.packages("ROI.plugin.lpsolve")
-
-library(ROI)
-library(ROI.plugin.lpsolve)
-
+```
+install.packages("ROI");install.packages("ROI.plugin.lpsolve")
+library(ROI);library(ROI.plugin.lpsolve)
 # See http://roi.r-forge.r-project.org/introduction.html
 #######################################################
 ## Simple linear program.
@@ -196,6 +193,7 @@ library(ROI.plugin.lpsolve)
 ## 2 x_1 + x_2 + x_3 <= 40
 ## x_1 + 3 x_2 + 2 x_3 <= 80
 ## x_1, x_2, x_3 are non-negative real numbers
+```
 
 
 `@citations`

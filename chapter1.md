@@ -62,3 +62,78 @@ Result <- a+b
 ex() %>% check_object("Result") %>% check_equal()
 success_msg("Nice work!")
 ```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: TabExercise
+key: 941943c467
+xp: 100
+```
+
+To Load a library for the R Optimization Infrastructure, and lpSolve Plug-in we will use
+library(ROI)
+library(ROI.plugin.lpsolve)
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+***
+
+```yaml
+type: MultipleChoiceExercise
+key: 89a0956408
+xp: 50
+```
+
+`@question`
+What do we use to load a library into memory
+
+`@possible_answers`
+install.packages
+install_version
+load_library
+library
+
+`@hint`
+
+
+`@sct`
+```{r}
+library
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: a6d008ade3
+xp: 50
+```
+
+`@instructions`
+Load the ROI and ROI.plugin.lpsolve libraries.
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+#library()
+```
+
+`@solution`
+```{r}
+library(ROI)
+library(ROI.plugin.lpsolve)
+
+```
+
+`@sct`
+```{r}
+0==0
+```
