@@ -137,38 +137,6 @@ key: "0453ecfea1"
 
 
 ---
-## Example problem
-
-```yaml
-type: "FullSlide"
-key: "2ab96b6b74"
-hide_title: true
-```
-
-`@part1`
-# Example problem
-A space holds three space types (A, B, C) and can have a maximum of 10 spaces total (They are all the same size).  
-
-Management wants to maximize throughput and the constraints are that each student needs to perform one of each space.  Space A takes 2 hours, B takes 4 hours and C takes 8 hours.{{1}}
-
-![Management Group 1 vs 2, where 2 Maximizes throughput using LP.](https://assets.datacamp.com/production/repositories/5020/datasets/2fdcb325a1966105546b7ca048a000562490da65/LpStudentThroughputExample.png){{2}}
-
-
-`@script`
-Is this a linear relationship?  In this case we see that as instructor labor increases, regardless of which event they are performing, there is a linear increase in the output of student throughput.  This means we can proceed with linear programming.
-
-Is this a maximization or minimization problem?  This is a maximization problem where we are looking for students to have A and B and C.  
-
-Does the problem make sense?  In this case, yes the problem makes sense, but what if we only had room for two spaces and they cannot be converted each day.  In this case, the question could not be solved and it would be a nonsense question.  What if we had room for three spaces and each space had a tool that students performing A's should not see?  Again, this is a nonsense question.  It may seem strange to ask a question that doesn't make sense, but this type of situation does happen when developing new manufacturing or training spaces.
-
-At this step, it is a good idea to ask some probing questions.  For example, how often can we change the space design from A to B or C?  How long does it take to switch from one space type to another?  How much does it cost?
-
-Now we need to establish constraints.  Can we train negative students?  No, the minimum number of training events is zero.  How about fractional students?  Every environment is different, but in this case we will say each student must fully complete the event they started in the day they started it. Each event must occur in a continuous time block.  The combined effect of the constraints in this paragraph mean the quantity of events is greater than zero and they must be integers.
-
-Can students work more hours than instructors?  No, the student hours are capped at the instructor hours and in this example, instructors only work an eight hour day on one shift.  Furthermore, the staff to student ratio is 1:1.
-
-
----
 ## Solution process in Excel Solver
 
 ```yaml
