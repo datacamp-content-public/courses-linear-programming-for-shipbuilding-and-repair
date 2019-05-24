@@ -31,14 +31,11 @@ key: "f5aab26d66"
 ```
 
 `@part1`
-- The invention of LP is attributed to several individuals who discovered independently. In 1939 by Leonid Kantorovich, then by T. C. Koopmans, also by Wassily Leontief, and greatly simplified in 1947 by George B. Dantzig's simplex method.
-- During WWII, LP was used by the US for planning complex wartime operations. 
-- Postwar industrialization saw a significant rise in LP use throughout most industries.
-- The generalized simplex method was initially conceived of in 1947 [by George B. Dantzig.](https://apps.dtic.mil/dtic/tr/fulltext/u2/a112060.pdf)
-  >"The ability to state general objectives and then find optimal policy
-solutions to practical decision problems of great complexity is a revolutionary development." ... "In retrospect it is interesting to note that the original problem
-that started my research Is still outstanding -- namely the problem of
-planning or scheduling dynamically over time." (Dantzig, 1981)
+- The invention of LP is attributed to several individuals who discovered independently. In 1939 by Leonid Kantorovich, then by T. C. Koopmans, also by Wassily Leontief, and greatly simplified in 1947 by George B. Dantzig's simplex method.{{1}}
+- During WWII, LP was used by the US for planning complex wartime operations. {{2}}
+- Postwar industrialization saw a significant rise in LP use throughout most industries.{{3}}
+- The generalized simplex method was initially conceived of in 1947 [by George B. Dantzig.](https://apps.dtic.mil/dtic/tr/fulltext/u2/a112060.pdf){{4}}
+- "The ability to state general objectives and then find optimal policy solutions to practical decision problems of great complexity is a revolutionary development." ... "In retrospect it is interesting to note that the original problem that started my research Is still outstanding -- namely the problem of planning or scheduling dynamically over time." (Dantzig, 1981){{5}}
 
 
 `@citations`
@@ -65,6 +62,16 @@ the objective not the objective Itself.
 (3) Inventing the simplex method which transformed a rather
 interesting approach to economic theory into a basic tool for
 practical planning of large complex systems.
+
+
+Additional reading...
+- [On Some Dynamic Linear Programming Problems](https://apps.dtic.mil/dtic/tr/fulltext/u2/603981.pdf) Richard Bellman (August 1951)
+- [Significance of Solving Linear Programming Problems w/ some Integer Variables](https://apps.dtic.mil/dtic/tr/fulltext/u2/607024.pdf) Dantzig (1959)
+- [The Decomposition Algorithm for Linear Programming](https://apps.dtic.mil/dtic/tr/fulltext/u2/263628.pdf) George B. Dantzig (September 1961)
+- [Simplex Method and Theory](https://apps.dtic.mil/dtic/tr/fulltext/u2/277519.pdf) A.W.Tucker (July 1962)
+- [Large Scale Linear Programming](https://apps.dtic.mil/dtic/tr/fulltext/u2/702054.pdf) George B. Dantzig (November 1967)
+- [Solving Starcase Linear Programs by the Simplex Method,1: Inversion ](https://apps.dtic.mil/dtic/tr/fulltext/u2/a081713.pdf) Robert Fourer (1979)
+- [A Linear Programming Approach to a Simple Linear Regression Problem with Least Absolute Value Criterion](https://apps.dtic.mil/dtic/tr/fulltext/u2/a078622.pdf) R. D. Armstrong (December 1979)
 
 
 ---
@@ -193,7 +200,7 @@ library(ROI);library(ROI.plugin.lpsolve)
 ## 2 x_1 + x_2 + x_3 <= 40
 ## x_1 + 3 x_2 + 2 x_3 <= 80
 ## x_1, x_2, x_3 are non-negative real numbers
-```
+```# #
 
 
 `@citations`
@@ -254,28 +261,6 @@ res <- ROI_solve( op )
 res
 sol <- solution( res )
 ```
-
-
-`@script`
-
-
-
----
-## Additional early reading (with links and year) : Defense Technical Information Center (DTIC)
-
-```yaml
-type: "FullSlide"
-key: "f7761ac121"
-```
-
-`@part1`
-- [On Some Dynamic Linear Programming Problems](https://apps.dtic.mil/dtic/tr/fulltext/u2/603981.pdf) Richard Bellman (August 1951)
-- [Significance of Solving Linear Programming Problems w/ some Integer Variables](https://apps.dtic.mil/dtic/tr/fulltext/u2/607024.pdf) Dantzig (1959)
-- [The Decomposition Algorithm for Linear Programming](https://apps.dtic.mil/dtic/tr/fulltext/u2/263628.pdf) George B. Dantzig (September 1961)
-- [Simplex Method and Theory](https://apps.dtic.mil/dtic/tr/fulltext/u2/277519.pdf) A.W.Tucker (July 1962)
-- [Large Scale Linear Programming](https://apps.dtic.mil/dtic/tr/fulltext/u2/702054.pdf) George B. Dantzig (November 1967)
-- [Solving Starcase Linear Programs by the Simplex Method,1: Inversion ](https://apps.dtic.mil/dtic/tr/fulltext/u2/a081713.pdf) Robert Fourer (1979)
-- [A Linear Programming Approach to a Simple Linear Regression Problem with Least Absolute Value Criterion](https://apps.dtic.mil/dtic/tr/fulltext/u2/a078622.pdf) R. D. Armstrong (December 1979)
 
 
 `@script`
