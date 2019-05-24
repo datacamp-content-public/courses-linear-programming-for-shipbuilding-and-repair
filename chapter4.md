@@ -61,3 +61,56 @@ result <- a+b
 ex() %>% check_object("Result") %>% check_equal()
 success_msg("Nice work!")
 ```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: TabExercise
+key: 16d08ae966
+xp: 100
+```
+
+Now let's walk through a method for solving this LP in R
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: dac438708b
+xp: 100
+```
+
+`@instructions`
+First we need to load the relevant libraries.  
+In this case we are using the ROI and ROI.plugin.lpsolve libraries.
+
+`@hint`
+We are adding the libraries ```ROI``` and ```ROI,plugin.lpsolve```
+
+`@sample_code`
+```{r}
+library(____)
+library(____.______._______)
+
+```
+
+`@solution`
+```{r}
+library(ROI)
+library(ROI.plugin.lpsolve)
+```
+
+`@sct`
+```{r}
+if you have:
+library(ROI)
+library(ROI.plugin.lpsolve)
+then you're correct
+```
