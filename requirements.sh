@@ -6,10 +6,10 @@
 # --assume-yes --assume-no --trivial-only --allow-downgrades --allow-remove-essential --allow-change-held-packages
 
 # XML, for https://cran.r-project.org/web/packages/XML and https://cran.r-project.org/web/packages/xml2/index.html
-# apt-get update && apt-get install --yes libxml2-dev
+apt-get update && apt-get install --yes libxml2-dev
 
 # Curl, for https://cran.r-project.org/web/packages/RCurl and https://cran.r-project.org/web/packages/curl
-# apt-get update && apt-get install --yes libcurl4-openssl-dev
+apt-get update && apt-get install --yes libcurl4-openssl-dev
 
 # V8, for https://cran.r-project.org/web/packages/V8
 # apt-get update && apt-get install --yes libv8-3.14-dev
@@ -18,8 +18,8 @@
 # apt-get update && apt-get install --yes libprotobuf-dev protobuf-compiler
 
 # jq JSON processor, for https://cran.r-project.org/web/packages/jqr (needs additional repo)
-# add-apt-repository -y ppa:opencpu/jq
-# apt-get update && apt-get install --yes libjq-dev
+add-apt-repository -y ppa:opencpu/jq
+apt-get update && apt-get install --yes libjq-dev
 
 ## SSL, for https://cran.r-project.org/web/packages/openssl
 # apt-get update && apt-get install --yes libssl-dev
