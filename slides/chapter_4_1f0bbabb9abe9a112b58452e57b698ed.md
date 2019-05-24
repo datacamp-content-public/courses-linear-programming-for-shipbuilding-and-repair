@@ -21,6 +21,24 @@ title: Health Physicists at Norfolk Naval Shipyard
 
 
 ---
+## Get Started
+
+```yaml
+type: "FullSlide"
+key: "2cf3e12323"
+```
+
+`@part1`
+# First we need to load the relevant libraries.  In this case we are using the ROI and ROI.plugin.lpsolve libraries.  
+``` library(ROI) {{1}} ```
+``` library(ROI.plugin.lpsolve) {{2}} ```
+
+
+`@script`
+
+
+
+---
 ## Let's practice!
 
 ```yaml
