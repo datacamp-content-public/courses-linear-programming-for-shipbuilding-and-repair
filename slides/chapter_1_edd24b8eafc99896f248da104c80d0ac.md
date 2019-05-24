@@ -12,6 +12,17 @@ type: "TitleSlide"
 key: "d8f53a346e"
 ```
 
+`@part1`
+- The invention of LP is attributed to several individuals with independent discoverey . In 1939 by Leonid Kantorovich, then by T. C. Koopmans, also by Wassily Leontief, and greatly simplified in 1947 by George B. Dantzig's simplex method.
+- During WWII, LP was used by the US for planning complex wartime operations. {{1}}
+- Postwar industrialization saw a significant rise in LP use throughout most industries. {{2}}
+- The generalized simplex method was initially conceived of in 1947 [by George B. Dantzig.](https://apps.dtic.mil/dtic/tr/fulltext/u2/a112060.pdf) {{3}}
+  >"The ability to state general objectives and then find optimal policy
+solutions to practical decision problems of great complexity is a revolutionary development." ... "In retrospect it is interesting to note that the original problem
+that started my research Is still outstanding -- namely the problem of
+planning or scheduling dynamically over time." (Dantzig, 1981)  {{4}}
+
+
 `@lower_third`
 
 name: Bill Young, MBA & Jeremy Gerdes
@@ -31,12 +42,14 @@ key: "f5aab26d66"
 ```
 
 `@part1`
-- The invention of LP is attributed to several individuals who discovered independently. In 1939 by Leonid Kantorovich, then by T. C. Koopmans, also by Wassily Leontief, and greatly simplified in 1947 by George B. Dantzig's simplex method.
+- The invention of LP is attributed to several individuals with independent discovery . In 1939 by Leonid Kantorovich, then by T. C. Koopmans, also by Wassily Leontief, and greatly simplified in 1947 by George B. Dantzig's simplex method.
 - During WWII, LP was used by the US for planning complex wartime operations. {{1}}
 - Postwar industrialization saw a significant rise in LP use throughout most industries. {{2}}
-- The generalized simplex method was initially conceived of in 1947 [by George B. Dantzig.](https://apps.dtic.mil/dtic/tr/fulltext/u2/a112060.pdf) {{3}}
-  >"The ability to state general objectives and then find optimal policy
-solutions to practical decision problems of great complexity is a revolutionary development." ... "In retrospect it is interesting to note that the original problem
+
+> "The ability to state general objectives and then find optimal policy
+solutions to practical decision problems of great complexity is a revolutionary development." (Dantzig, 1981)  {{3}}
+
+> "In retrospect it is interesting to note that the original problem
 that started my research Is still outstanding -- namely the problem of
 planning or scheduling dynamically over time." (Dantzig, 1981)  {{4}}
 
@@ -46,11 +59,13 @@ planning or scheduling dynamically over time." (Dantzig, 1981)  {{4}}
 
 
 `@script`
-The U.S.S.R. neglected Kantorovich's extensive proposal for linear inequality systems and was not recognized by soviet authorities until 1965. His papers where only widely known by the west in the late 1950's.
+- The generalized simplex method was initially conceived of in 1947 [by George B. Dantzig.](https://apps.dtic.mil/dtic/tr/fulltext/u2/a112060.pdf) {{3}}
+
+-The U.S.S.R. neglected Kantorovich's extensive proposal for linear inequality systems and was not recognized by soviet authorities until 1965. His papers where only widely known by the west in the late 1950's.
 
 Dantzig Generalized the work in 1932 by Wassily Leontief of work called the simplex matrix structure. He updated it from a one-to-one correspondence of input/output, in a steady-state model to a to a dynamic model that accepted many alternative activities, worked on a large scale and was computable. 
 
-Linear programming evolved out of the U.A. Air Force interest in 1947 in finding optimal time-staged deployment plans in case of war.
+Current Linear programming evolved out of the U.A. Air Force interest in 1947 in finding optimal time-staged deployment plans in case of war.
 
 Quote from Denzig
 If I were asked to summarize my early and perhaps my most important
