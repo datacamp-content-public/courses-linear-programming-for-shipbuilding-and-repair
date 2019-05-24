@@ -177,7 +177,7 @@ key: "761acaf78c"
 ## Setup for a Solution Process in R
 
 ```yaml
-type: "FullSlide"
+type: "FullCodeSlide"
 key: "fba1d0710e"
 ```
 
