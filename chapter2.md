@@ -1,6 +1,6 @@
 ---
-title: 'Trade School Example'
-description: 'A real world example problem'
+title: 'Describe a problem that can be solved with a LP model'
+description: ""
 ---
 
 ## A Training Example

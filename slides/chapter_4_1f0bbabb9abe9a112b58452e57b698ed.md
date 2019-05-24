@@ -21,6 +21,9 @@ title: Health Physicists at Norfolk Naval Shipyard
 `@script`
 No experience in R is expected for this course. We will be stepping line by line through this problem.
 
+You may feel more confertable if you have been through some tutorials or walk through exist for Introduction to R and RStudio see 
+https://www.youtube.com/watch?v=lL0s1coNtRk
+
 
 ---
 ## Get Started
