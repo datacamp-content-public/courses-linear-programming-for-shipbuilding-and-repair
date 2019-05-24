@@ -18,8 +18,8 @@ apt-get update && apt-get install --yes libcurl4-openssl-dev
 # apt-get update && apt-get install --yes libprotobuf-dev protobuf-compiler
 
 # jq JSON processor, for https://cran.r-project.org/web/packages/jqr (needs additional repo)
-add-apt-repository -y ppa:opencpu/jq
-apt-get update && apt-get install --yes libjq-dev
+# add-apt-repository -y ppa:opencpu/jq
+# apt-get update && apt-get install --yes libjq-dev
 
 ## SSL, for https://cran.r-project.org/web/packages/openssl
 # apt-get update && apt-get install --yes libssl-dev
