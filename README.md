@@ -1,1 +1,1 @@
-# courses-linear-programming-for-shipbuilding-and-repair
+# Linear Programming for Shipbuilding and Repair

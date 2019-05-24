@@ -1,13 +1,18 @@
 library(remotes)
 
 ##### Install specific package versions from CRAN #####
-install_version("ROI","3.4.1")
-install_version("ROI.plugin.lpsolve","3.4.1")
+install_version("ROI","0.3-2")
+install_version("ROI.plugin.lpsolve","0.3-2")
 
-# install_version("ggplot2", "3.0.0")
-# install_version("dplyr", "0.7.5")
-# install_version("tidyr", "0.8.1")
-# install_version("purrr", "0.2.5")
+##### Likely to use #####
+install_version("xml2","1.2.0")
+install_version("curl", "3.3")
+install_version("jsonlite", "1.2")
+
+install_version("ggplot2", "3.0.0")
+install_version("dplyr", "0.7.5")
+install_version("tidyr", "0.8.1")
+install_version("purrr", "0.2.5")
 
 ##### Install packages in development from GitHub #####
 
@@ -24,14 +29,14 @@ data_dir <- Sys.getenv("DATADIR")
 dir.create(data_dir)
 
 #' @param x Amazon S3 URL of the dataset, as a string. 
-download_data <- function(x) {
+download_data <- function(x,filename) {
   download.file(
     x,
-    file.path(data_dir, basename(x))
+    file.path(data_dir, filename)
   )
 }
 
-# Usage is, e.g.,
-# download_data(
-#   "https://assets.datacamp.com/production/repositories/19/datasets/27a2a8587eff17add54f4ba288e770e235ea3325/coffee.csv"
-# )
+ download_data(
+   "https://data.transportation.gov/api/views/keg4-3bc2/rows.csv","bordertransport.csv"
+ )
+#?accessType=DOWNLOAD"
