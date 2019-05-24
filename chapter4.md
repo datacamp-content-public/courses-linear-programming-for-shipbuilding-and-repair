@@ -84,7 +84,7 @@ Now let's walk through a method for solving this LP in R
 ```yaml
 type: NormalExercise
 key: dac438708b
-xp: 100
+xp: 50
 ```
 
 `@instructions`
@@ -113,4 +113,40 @@ if you have:
 library(ROI)
 library(ROI.plugin.lpsolve)
 then you're correct
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 6fc31fec3f
+xp: 50
+```
+
+`@instructions`
+In the next step, we begin to construct the objective function.  Here we are creating a vector of numbers that are multiplied by the terms x_1, x_2 and x_3.
+
+Written differently, this statement says: maximize: **2** x_1 + **4** x_2 + **3** x_3
+
+If you want to see all the variables you are working on at any point, use the command .display.objects() and all of the objects in R will be displayed on your browser.
+
+`@hint`
+Run the code as presented
+this will return a single vector :
+[1] 2 4 3
+
+`@sample_code`
+```{r}
+my.lp.objective <- c(2,4,3)
+my.lp.objective
+```
+
+`@solution`
+```{r}
+my.lp.objective <- c(2,4,3)
+```
+
+`@sct`
+```{r}
+
 ```
