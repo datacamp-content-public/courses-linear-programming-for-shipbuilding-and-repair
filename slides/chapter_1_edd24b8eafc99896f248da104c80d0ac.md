@@ -12,10 +12,6 @@ type: "TitleSlide"
 key: "d8f53a346e"
 ```
 
-`@part1`
-Intro to Linear Programming (LP)
-
-
 `@lower_third`
 
 name: Bill Young, MBA & Jeremy Gerdes
