@@ -8,107 +8,114 @@
       }
     },
     {
-      "timing": 0.03848076544617107,
+      "timing": 0.04704843795008848,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.07706395503770472,
       "state": {
         "indexh": 1,
         "indexf": -1
       }
     },
     {
-      "timing": 0.05102899628758081,
+      "timing": 0.15482226518886275,
       "state": {
         "indexh": 1,
         "indexf": 0
       }
     },
     {
-      "timing": 0.06852635421475108,
+      "timing": 0.1874039190998407,
       "state": {
         "indexh": 1,
         "indexf": 1
       }
     },
     {
-      "timing": 0.08605705161221648,
+      "timing": 0.21741392304594695,
       "state": {
         "indexh": 1,
         "indexf": 2
       }
     },
     {
-      "timing": 0.10364629857251835,
+      "timing": 0.24001129773006022,
       "state": {
         "indexh": 1,
         "indexf": 3
       }
     },
     {
-      "timing": 0.12120839080490993,
-      "state": {
-        "indexh": 1,
-        "indexf": 4
-      }
-    },
-    {
-      "timing": 0.1537234960859151,
+      "timing": 0.3051878070199593,
       "state": {
         "indexh": 2,
         "indexf": -1
       }
     },
     {
-      "timing": 0.18638116118247583,
+      "timing": 0.35029925783191623,
       "state": {
         "indexh": 2,
         "indexf": 0
       }
     },
     {
-      "timing": 0.21140052909919788,
+      "timing": 0.3727787014071832,
       "state": {
         "indexh": 2,
         "indexf": 1
       }
     },
     {
-      "timing": 0.226413685509739,
+      "timing": 0.39037164718424366,
       "state": {
         "indexh": 2,
         "indexf": 2
       }
     },
     {
-      "timing": 0.24142096791859852,
-      "state": {
-        "indexh": 2,
-        "indexf": 3
-      }
-    },
-    {
-      "timing": 0.25902989178214436,
-      "state": {
-        "indexh": 2,
-        "indexf": 4
-      }
-    },
-    {
-      "timing": 0.27656839779276665,
+      "timing": 0.4204066306733371,
       "state": {
         "indexh": 3,
         "indexf": -1
       }
     },
     {
-      "timing": 0.2990451148689597,
-      "state": {
-        "indexh": 3,
-        "indexf": 0
-      }
-    },
-    {
-      "timing": 0.9377968113975577,
+      "timing": 0.48556090696711024,
       "state": {
         "indexh": 4,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.5276127847666647,
+      "state": {
+        "indexh": 4,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.5526190815260612,
+      "state": {
+        "indexh": 4,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.570098777352612,
+      "state": {
+        "indexh": 4,
+        "indexf": 2
+      }
+    },
+    {
+      "timing": 0.5976589918090054,
+      "state": {
+        "indexh": 5,
         "indexf": -1
       }
     }
