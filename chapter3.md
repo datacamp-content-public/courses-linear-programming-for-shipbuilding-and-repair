@@ -3,17 +3,13 @@ title: 'Solution in Excel'
 description: 'A walk through for how to solve our LP example problem in Microsoft Excel'
 ---
 
-## Insert exercise title here
+## LP Problem Walk Through in Excel
 
 ```yaml
-type: TabExercise
-key: f1f957955c
-xp: 100
+type: VideoExercise
+key: 17430ed167
+xp: 50
 ```
 
-
-
-`@pre_exercise_code`
-```{r}
-
-```
+`@projector_key`
+588c3b8dddfec6991a79e763c75641a1

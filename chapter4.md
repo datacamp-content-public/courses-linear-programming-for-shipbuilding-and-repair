@@ -3,33 +3,16 @@ title: 'Solution in ''R for Statistics'''
 description: 'solve the same problem using the ''R for Statistics'' language.'
 ---
 
-## Insert exercise title here
+## LP Problem Walk Through of Solution in R
 
 ```yaml
 type: VideoExercise
-key: 7cea1fe689
+key: ea2868609c
 xp: 50
 ```
 
 `@projector_key`
-faeca96f4d36f155c8b1c122b88e0c3e
-
----
-
-## Insert exercise title here
-
-```yaml
-type: TabExercise
-key: cb6bd00518
-xp: 100
-```
-
-
-
-`@pre_exercise_code`
-```{r}
-
-```
+1f0bbabb9abe9a112b58452e57b698ed
 
 ---
 
