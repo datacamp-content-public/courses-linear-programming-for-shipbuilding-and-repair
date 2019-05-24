@@ -3,7 +3,7 @@ title: 'Trade School Example'
 description: 'A real world example problem'
 ---
 
-## Insert exercise title here
+## A Training Example
 
 ```yaml
 type: VideoExercise

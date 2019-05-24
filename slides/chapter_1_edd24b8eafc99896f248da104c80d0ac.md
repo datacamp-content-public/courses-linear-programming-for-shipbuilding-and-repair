@@ -137,22 +137,6 @@ key: "0453ecfea1"
 
 
 ---
-## Solution process in Excel Solver
-
-```yaml
-type: "FullSlide"
-key: "761acaf78c"
-```
-
-`@part1`
-![Solution Process in Excel Sover](https://assets.datacamp.com/production/repositories/5020/datasets/09fb3c892bcdbf9f773d7f98acb58bbdc2941e11/Solution%20process%20in%20Excel%20Sover.png){{1}}
-
-
-`@script`
-
-
-
----
 ## Setup for a Solution Process in R
 
 ```yaml
