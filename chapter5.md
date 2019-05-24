@@ -21,6 +21,11 @@ xp: 100
 
 `@pre_exercise_code`
 ```{r}
+
+```
+
+`@sample_code`
+```{r}
 library(dplyr)
 download_data <- function(x,filename=basename(x)) {
   if(!file.exists(file.path(getwd(), filename))){
@@ -38,11 +43,6 @@ trasportation.data <- read.csv(file.path(getwd(),"bordertransport.csv"))
 #trasportation.data %>%
 #	group_by()
 names(trasportation.data)
-```
-
-`@sample_code`
-```{r}
-
 ```
 
 `@solution`
