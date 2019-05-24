@@ -8,13 +8,6 @@
       }
     },
     {
-      "timing": 0.02088662682576577,
-      "state": {
-        "indexh": 0,
-        "indexf": 0
-      }
-    },
-    {
       "timing": 0.03848076544617107,
       "state": {
         "indexh": 1,
@@ -113,40 +106,73 @@
       }
     },
     {
-      "timing": 0.3367356366349777,
-      "state": {
-        "indexh": 4,
-        "indexf": -1
-      }
-    },
-    {
-      "timing": 0.35420822552092746,
-      "state": {
-        "indexh": 4,
-        "indexf": 0
-      }
-    },
-    {
-      "timing": 0.37176547621268385,
-      "state": {
-        "indexh": 4,
-        "indexf": 1
-      }
-    },
-    {
-      "timing": 0.3867843261948208,
-      "state": {
-        "indexh": 4,
-        "indexf": 2
-      }
-    },
-    {
       "timing": 0.9377968113975577,
       "state": {
-        "indexh": 5,
+        "indexh": 4,
         "indexf": -1
       }
     }
   ],
-  "slides/chapter_2_71fdd7c68c7a12a7258ab279408de5d8.md": []
+  "slides/chapter_2_71fdd7c68c7a12a7258ab279408de5d8.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    }
+  ],
+  "slides/chapter_3_588c3b8dddfec6991a79e763c75641a1.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    }
+  ],
+  "slides/chapter_4_1f0bbabb9abe9a112b58452e57b698ed.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.02987255631631451,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.06242799774538574,
+      "state": {
+        "indexh": 1,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.11255918395000612,
+      "state": {
+        "indexh": 1,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.12508988300141397,
+      "state": {
+        "indexh": 1,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.1401252824319746,
+      "state": {
+        "indexh": 2,
+        "indexf": -1
+      }
+    }
+  ]
 }

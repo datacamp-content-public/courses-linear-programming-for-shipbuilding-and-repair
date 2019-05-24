@@ -92,7 +92,11 @@ First we need to load the relevant libraries.
 In this case we are using the ROI and ROI.plugin.lpsolve libraries.
 
 `@hint`
-We are adding the libraries ```ROI``` and ```ROI,plugin.lpsolve```
+We are adding the libraries ```ROI``` and ```ROI,plugin.lpsolve``` if you have:
+```library(ROI)
+library(ROI.plugin.lpsolve)
+```
+then you're correct
 
 `@sample_code`
 ```{r}
@@ -109,10 +113,7 @@ library(ROI.plugin.lpsolve)
 
 `@sct`
 ```{r}
-if you have:
-library(ROI)
-library(ROI.plugin.lpsolve)
-then you're correct
+
 ```
 
 ***
@@ -128,12 +129,12 @@ In the next step, we begin to construct the objective function.  Here we are cre
 
 Written differently, this statement says: maximize: **2** x_1 + **4** x_2 + **3** x_3
 
-If you want to see all the variables you are working on at any point, use the command .display.objects() and all of the objects in R will be displayed on your browser.
-
 `@hint`
 Run the code as presented
 this will return a single vector :
 [1] 2 4 3
+
+If you want to see all the variables you are working on at any point, use the command .display.objects() and all of the objects in R will be displayed on your browser.
 
 `@sample_code`
 ```{r}

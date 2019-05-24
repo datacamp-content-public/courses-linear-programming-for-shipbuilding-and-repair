@@ -40,8 +40,7 @@ download_data(
    "bordertransport.csv"
  )
 trasportation.data <- read.csv(file.path(getwd(),"bordertransport.csv"))
-#trasportation.data %>%
-#	group_by()
+
 names(trasportation.data)
 ```
 
