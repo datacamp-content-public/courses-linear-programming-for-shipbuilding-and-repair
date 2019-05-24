@@ -59,11 +59,12 @@ Maximum:  The goal here is to maximize, so this value is set to true.
 LP <- OP(my.lp.objective,my.lp.constraints,max = TRUE,
 	types = rep_len("I",length(my.lp.constraints)))
 ```
+Now that our optimization problem has been built, we are ready to solve it!  In this case, we are using linear programming LP model and the solver for the problem is lpsolve.
 
 ```
 sol <- ROI_solve(LP, solver = "lpsolve")
 ```
-
+At this point, everything has been completed and we only have one final step.  All we need to do at this point is to display the solution to the problem which can be done with the following line.
 ```
 solution(sol, type = "msg")
 ```
