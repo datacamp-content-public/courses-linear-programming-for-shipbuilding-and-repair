@@ -19,7 +19,7 @@ title: Health Physicists at Norfolk Naval Shipyard
 
 
 `@script`
-
+No experience in R is expected for this course. We will be stepping line by line through this problem.
 
 
 ---
@@ -31,9 +31,30 @@ key: "2cf3e12323"
 ```
 
 `@part1`
-# First we need to load the relevant libraries.  In this case we are using the ROI and ROI.plugin.lpsolve libraries.  
-``` library(ROI) {{1}} ```
-``` library(ROI.plugin.lpsolve) {{2}} ```
+# First we need to load the relevant libraries. 
+- In this case we are using the ROI and ROI.plugin.lpsolve libraries.  
+``` 
+library(ROI) {{1}} 
+```
+```
+library(ROI.plugin.lpsolve) {{2}} 
+```
+
+
+`@script`
+
+
+
+---
+## Insert title here...
+
+```yaml
+type: "FullSlide"
+key: "f3a31d72fb"
+```
+
+`@part1`
+
 
 
 `@script`
