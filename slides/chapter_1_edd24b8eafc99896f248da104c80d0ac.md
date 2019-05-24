@@ -15,7 +15,7 @@ key: "d8f53a346e"
 `@lower_third`
 
 name: Bill Young, MBA & Jeremy Gerdes
-title: Health Physicists at NNSY
+title: Health Physicists at Norfolk Naval Shipyard
 
 
 `@script`
