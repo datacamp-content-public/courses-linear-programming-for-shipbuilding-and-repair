@@ -34,8 +34,8 @@ key: "f5aab26d66"
 - The invention of LP is attributed to several individuals who discovered independently. In 1939 by Leonid Kantorovich, then by T. C. Koopmans, also by Wassily Leontief, and greatly simplified in 1947 by George B. Dantzig's simplex method.{{1}}
 - During WWII, LP was used by the US for planning complex wartime operations. {{2}}
 - Postwar industrialization saw a significant rise in LP use throughout most industries.{{3}}
-- The generalized simplex method was initially conceived of in 1947 [by George B. Dantzig.](https://apps.dtic.mil/dtic/tr/fulltext/u2/a112060.pdf){{4}}
-- "The ability to state general objectives and then find optimal policy solutions to practical decision problems of great complexity is a revolutionary development." ... "In retrospect it is interesting to note that the original problem that started my research Is still outstanding -- namely the problem of planning or scheduling dynamically over time." (Dantzig, 1981){{5}}
+- The generalized simplex method was initially conceived of in 1947 [by George B. Dantzig.](https://apps.dtic.mil/dtic/tr/fulltext/u2/a112060.pdf).{{4}}
+> "The ability to state general objectives and then find optimal policy solutions to practical decision problems of great complexity is a revolutionary development." ... "In retrospect it is interesting to note that the original problem that started my research Is still outstanding -- namely the problem of planning or scheduling dynamically over time." (Dantzig, 1981).{{5}}
 
 
 `@citations`
@@ -84,13 +84,13 @@ key: "096a744d9e"
 
 `@part1`
 Linear programming is an optimization technique that uses a few inputs to determine the best way to accomplish a task.  The task could be to increase throughput, decrease cost or minimize downtime.  The inputs to linear programming are:
-- What is being optimized?
-- What are the constraints?
-- What are the variables?
+- What is being optimized?{{1}}
+- What are the constraints?{{2}}
+- What are the variables?{{3}}
 
-The output of linear programming is the optimal configuration to accomplish the optimization.  An example below shows the benefits of using linear programming compared to assumptions of what is best.
+The output of linear programming is the optimal configuration to accomplish the optimization.  An example below shows the benefits of using linear programming compared to assumptions of what is best.{{4}}
 
-For this course we are working through the text [Illustrated Guide to Linear Programming](https://www.amazon.com/Illustrated-Guide-Linear-Programming/dp/0486262588)
+For this course we are working through the text [Illustrated Guide to Linear Programming](https://www.amazon.com/Illustrated-Guide-Linear-Programming/dp/0486262588){{5}}
 
 
 `@script`
@@ -106,7 +106,7 @@ key: "c762259084"
 ```
 
 `@part1`
-![Types of Analytics](https://assets.datacamp.com/production/repositories/5020/datasets/9e3f9dab9f9446658c1937526d285dfe0da4f3a0/Analytics%20Optimization%20Difficulty%20vs%20Value.png)
+![Types of Analytics](https://assets.datacamp.com/production/repositories/5020/datasets/9e3f9dab9f9446658c1937526d285dfe0da4f3a0/Analytics%20Optimization%20Difficulty%20vs%20Value.png){{1}}
 
 
 `@script`
@@ -115,6 +115,25 @@ There are many optimization algorithms available. However, some methods are only
 Within each class of problems, there are different minimization methods, which vary in computational requirements, convergence properties, and so on. Optimization problems are classified according to the mathematical characteristics of the objective function, the constraints, and the controllable decision variables.
 
 In this course we will be focused on problems that have a linear relationship between the dependent and response variables.  Prior to jumping into any linear programming problem, the first step is to look at the information provided to determine if there is a linear relationship.
+
+
+---
+## Top three goals of this training
+
+```yaml
+type: "FullSlide"
+key: "0453ecfea1"
+```
+
+`@part1`
+## Using both MS Excel and the 'R for Statistics' Language
+1.	**Apply linear programming calculations to training space and determine the maximum theoretical training space throughput**{{1}}
+2.	**Apply linear programming calculations to classroom size and determine the maximum theoretical classroom throughput**{{2}}
+3.	**Build combined model to determine maximum theoretical student throughput based on previous two sets of analysis**{{3}}
+
+
+`@script`
+
 
 
 ---
@@ -127,9 +146,12 @@ hide_title: true
 ```
 
 `@part1`
-# Example
-A space holds three space types (A, B, C) and can have a maximum of 10 spaces total (They are all the same size).  Management wants to maximize throughput and the constraints are that each student needs to perform one of each space.  Space A takes 2 hours, B takes 4 hours and C takes 8 hours.
-![Management Group 1 vs 2, where 2 Maximizes throughput using LP.](https://assets.datacamp.com/production/repositories/5020/datasets/2fdcb325a1966105546b7ca048a000562490da65/LpStudentThroughputExample.png)
+# Example problem
+A space holds three space types (A, B, C) and can have a maximum of 10 spaces total (They are all the same size).  
+
+Management wants to maximize throughput and the constraints are that each student needs to perform one of each space.  Space A takes 2 hours, B takes 4 hours and C takes 8 hours.{{1}}
+
+![Management Group 1 vs 2, where 2 Maximizes throughput using LP.](https://assets.datacamp.com/production/repositories/5020/datasets/2fdcb325a1966105546b7ca048a000562490da65/LpStudentThroughputExample.png){{2}}
 
 
 `@script`
@@ -147,24 +169,6 @@ Can students work more hours than instructors?  No, the student hours are capped
 
 
 ---
-## Top three goals of this training
-
-```yaml
-type: "FullSlide"
-key: "0453ecfea1"
-```
-
-`@part1`
-1.	Apply linear programming calculations to training space and determine the maximum theoretical training space throughput
-2.	Apply linear programming calculations to classroom size and determine the maximum theoretical classroom throughput
-3.	Build combined model to determine maximum theoretical student throughput based on previous two sets of analysis
-
-
-`@script`
-
-
-
----
 ## Solution process in Excel Solver
 
 ```yaml
@@ -173,7 +177,7 @@ key: "761acaf78c"
 ```
 
 `@part1`
-![Solution Process in Excel Sover](https://assets.datacamp.com/production/repositories/5020/datasets/09fb3c892bcdbf9f773d7f98acb58bbdc2941e11/Solution%20process%20in%20Excel%20Sover.png)
+![Solution Process in Excel Sover](https://assets.datacamp.com/production/repositories/5020/datasets/09fb3c892bcdbf9f773d7f98acb58bbdc2941e11/Solution%20process%20in%20Excel%20Sover.png){{1}}
 
 
 `@script`
@@ -189,18 +193,13 @@ key: "fba1d0710e"
 ```
 
 `@part1`
-```
-install.packages("ROI");install.packages("ROI.plugin.lpsolve")
-library(ROI);library(ROI.plugin.lpsolve)
-# See http://roi.r-forge.r-project.org/introduction.html
-#######################################################
-## Simple linear program.
-## maximize: 2 x_1 + 4 x_2 + 3 x_3
-## subject to: 3 x_1 + 4 x_2 + 2 x_3 <= 60
-## 2 x_1 + x_2 + x_3 <= 40
-## x_1 + 3 x_2 + 2 x_3 <= 80
-## x_1, x_2, x_3 are non-negative real numbers
-```# #
+## Define a simple linear program:
+- maximize: 2 x_1 + 4 x_2 + 3 x_3 
+- subject to:{{1}}
+ - 3 x_1 + 4 x_2 + 2 x_3 <= 60 {{2}} 
+ - 2 x_1 + x_2 + x_3 <= 40 {{3}} 
+ - x_1 + 3 x_2 + 2 x_3 <= 80 {{4}} 
+ - x_1, x_2, x_3 are non-negative real numbers {{5}}
 
 
 `@citations`
@@ -222,21 +221,33 @@ https://upcommons.upc.edu/bitstream/handle/2117/78335/Modeling+and+Solving+Linea
 type: "FullSlide"
 key: "e4667b68e1"
 hide_title: false
+code_zoom: 90
 ```
 
 `@part1`
 ```
-my.lp.objective <- c(2,4,3)
-my.lp.constraints.lhs <-matrix(c(3, 2, 1, 4, 1, 3, 2, 2, 2), 
-	nrow = 3)
-my.lp.constraints <- L_constraint(
+school.lp.objective <- c(2,4,3); {{1}}
+```
+```
+school.lp.constraints.lhs <- 
+	matrix(c(3, 2, 1, 4, 1, 3, 2, 2, 2),nrow = 3); {{2}}
+```
+```
+school.lp.constraints <- L_constraint(
 	L = my.lp.constraints.lhs,
     dir = rep_len("<=", rnum(my.lp.constraints.lhs)),
-    rhs = c(60, 40, 80))
-LP <- OP(my.lp.objective,my.lp.constraints,max = TRUE,
-	types = rep_len("I",length(my.lp.constraints)))
-sol <- ROI_solve(LP, solver = "lpsolve")
-solution(sol, type = "msg")
+    rhs = c(60, 40, 80)); {{3}}
+```
+```
+school.lp <- OP(my.lp.objective,my.lp.constraints,max = TRUE,
+	types = rep_len("I",length(my.lp.constraints))); {{4}}
+```
+```
+school.lp.solution <- ROI_solve(school.lp, solver = "lpsolve"); {{5}}
+```
+```
+school.lp.results <- solution(sol, type = "msg")
+school.lp.results; {{6}}
 ```
 
 
@@ -253,13 +264,19 @@ key: "7b905424c2"
 ```
 
 `@part1`
-Create op.txt file as a LP problem.
+Create op.txt file as a LP problem. 
+Then load and run the LP: {{1}}
 ```
-library(ROI);library(ROI.plugin.lpsolve)
-op <- ROI_read("op.txt","lp_lpsolve",solver="lpsolve")
-res <- ROI_solve( op )
-res
-sol <- solution( res )
+library(ROI);library(ROI.plugin.lpsolve); {{2}}
+```
+```
+op <- ROI_read("op.txt","lp_lpsolve",solver="lpsolve"); {{3}}
+```
+```
+res <- ROI_solve(op); {{4}}
+```
+```
+sol <- solution(res); {{5}}
 ```
 
 
