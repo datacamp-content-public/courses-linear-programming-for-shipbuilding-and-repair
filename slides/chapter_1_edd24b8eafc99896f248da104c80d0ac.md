@@ -101,7 +101,7 @@ key: "096a744d9e"
 `@script`
 Linear programming is an optimization technique that uses a few inputs to determine the best way to accomplish a task.  The task could be to increase throughput, decrease cost or minimize downtime.
 
-The output of linear programming is the optimal configuration to accomplish that optimization.  An example  shows the benefits of using linear programming compared to assumptions of what is best.{{4}}
+The output of linear programming is the optimal configuration to accomplish that optimization.  An example  shows the benefits of using linear programming compared to assumptions of what is best.
 
 For this course we are working through the text [Illustrated Guide to Linear Programming](https://www.amazon.com/Illustrated-Guide-Linear-Programming/dp/0486262588)
 
@@ -127,7 +127,7 @@ In this course we will be focused on problems that have a linear relationship be
 
 
 ---
-## Top three goals of this training 
+## Top three goals of this training
 
 ```yaml
 type: "FullSlide"
