@@ -21,6 +21,7 @@ title: Health Physicists at NNSY
 `@script`
 
 
+
 ---
 ## History of Linear Programming (LP)
 
@@ -31,8 +32,8 @@ key: "f5aab26d66"
 
 `@part1`
 - The invention of LP is attributed to several individuals who discovered independently. In 1939 by Leonid Kantorovich, then by T. C. Koopmans, also by Wassily Leontief, and greatly simplified in 1947 by George B. Dantzig's simplex method.
-- During WWII, LP was used by the US for planning complex wartime operations. 
-- Postwar industrialization saw a significant rise in LP use throughout most industries.
+- During WWII, LP was used by the US for planning complex wartime operations. {{1}}
+- Postwar industrialization saw a significant rise in LP use throughout most industries. {{2}}
 - The generalized simplex method was initially conceived of in 1947 [by George B. Dantzig.](https://apps.dtic.mil/dtic/tr/fulltext/u2/a112060.pdf)
   >"The ability to state general objectives and then find optimal policy
 solutions to practical decision problems of great complexity is a revolutionary development." ... "In retrospect it is interesting to note that the original problem
@@ -82,7 +83,7 @@ An optimization technique
 - What are the variables?{{3}}
 
 
-The output of linear programming is the optimal configuration to accomplish the optimization.  WeAn example  shows the benefits of using linear programming compared to assumptions of what is best.
+The output of linear programming is the optimal configuration to accomplish the optimization.  An example  shows the benefits of using linear programming compared to assumptions of what is best.
 
 For this course we are working through the text [Illustrated Guide to Linear Programming](https://www.amazon.com/Illustrated-Guide-Linear-Programming/dp/0486262588)
 
