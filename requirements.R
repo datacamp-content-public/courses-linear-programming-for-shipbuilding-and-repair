@@ -1,6 +1,8 @@
 library(remotes)
 
 ##### Install specific package versions from CRAN #####
+install_version("ROI","3.4.1")
+install_version("ROI.plugin.lpsolve","3.4.1")
 
 # install_version("ggplot2", "3.0.0")
 # install_version("dplyr", "0.7.5")
