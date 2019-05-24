@@ -12,6 +12,10 @@ type: "TitleSlide"
 key: "d8f53a346e"
 ```
 
+`@part1`
+
+
+
 `@lower_third`
 
 name: Bill Young, MBA & Jeremy Gerdes
@@ -19,7 +23,9 @@ title: Health Physicists at NNSY
 
 
 `@script`
+The output of linear programming is the optimal configuration to accomplish the optimization.  In later chapters we will walk through an example shows the benefits of using linear programming compared to assumptions of what is best.
 
+For this course we are working through the text [Illustrated Guide to Linear Programming](https://www.amazon.com/Illustrated-Guide-Linear-Programming/dp/0486262588)
 
 
 ---
@@ -83,7 +89,7 @@ An optimization technique
 - What are the variables?{{3}}
 
 
-The output of linear programming is the optimal configuration to accomplish the optimization.  An example below shows the benefits of using linear programming compared to assumptions of what is best.
+The output of linear programming is the optimal configuration to accomplish the optimization.  WeAn example  shows the benefits of using linear programming compared to assumptions of what is best.
 
 For this course we are working through the text [Illustrated Guide to Linear Programming](https://www.amazon.com/Illustrated-Guide-Linear-Programming/dp/0486262588)
 
