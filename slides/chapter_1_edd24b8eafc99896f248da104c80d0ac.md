@@ -12,6 +12,49 @@ type: "TitleSlide"
 key: "d8f53a346e"
 ```
 
+`@part1`
+First we need to load the relevant libraries.  In this case we are using the ROI and ROI.plugin.lpsolve libraries.  
+```
+library(ROI)
+library(ROI.plugin.lpsolve)
+```
+In the next step, we begin to construct the objective function.  Here we are creating a vector of numbers that are multiplied by the terms x_1, x_2 and x_3.
+
+Written differently, this statement says: maximize: **2** x_1 + **4** x_2 + **3** x_3
+
+If you want to see all the variables you are working on at any point, use the command .display.objects() and all of the objects in R will be displayed on your browser.
+```
+my.lp.objective <- c(2,4,3)
+```
+In the next step, we are making a matrix of the Left Hand Side (LHS) constraints.  The resulting matrix has three rows and three columns.
+
+```
+my.lp.constraints.lhs <-matrix(c(3, 2, 1, 4, 1, 3, 2, 2, 2), 
+	nrow = 3)
+```
+
+Now that we have the left hand side of our constraints, we need an operator (>=, <=, ==, etc.) and a right hand side constraint.  In this example, we are only using the sign <= and each of our constraints will 
+```
+my.lp.constraints <- L_constraint(
+	L = my.lp.constraints.lhs,
+    dir = rep_len("<=", rnum(my.lp.constraints.lhs)),
+    rhs = c(60, 40, 80))
+```
+
+```
+LP <- OP(my.lp.objective,my.lp.constraints,max = TRUE,
+	types = rep_len("I",length(my.lp.constraints)))
+```
+
+```
+sol <- ROI_solve(LP, solver = "lpsolve")
+```
+
+```
+solution(sol, type = "msg")
+```
+
+
 `@lower_third`
 
 name: Bill Young, MBA & Jeremy Gerdes
@@ -238,7 +281,7 @@ my.lp.constraints.lhs <-matrix(c(3, 2, 1, 4, 1, 3, 2, 2, 2),
 	nrow = 3)
 ```
 
-Now that we have the left hand side of our constraints, we need an operator (>=, <=, ==, etc.) and 
+Now that we have the left hand side of our constraints, we need an operator (>=, <=, ==, etc.) and a right hand side constraint.  In this example, we are only using the sign <= and each of our constraint
 ```
 my.lp.constraints <- L_constraint(
 	L = my.lp.constraints.lhs,
