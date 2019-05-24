@@ -33,14 +33,28 @@ my.lp.constraints.lhs <-matrix(c(3, 2, 1, 4, 1, 3, 2, 2, 2),
 	nrow = 3)
 ```
 
-Now that we have the left hand side of our constraints, we need an operator (>=, <=, ==, etc.) and a right hand side constraint.  In this example, we are only using the sign <= and each of our constraints will 
+Now that we have the left hand side of our constraints, we need an operator (>=, <=, ==, etc.) and a right hand side constraint.  In this example, we are only using the sign <= and each of our constraints will use this term.  
+
+The rep_len function takes the <= operator and inserts it into each row of constraints.  The rnum function is counting the number of constraint rows and then inserting the operator in each row.
+
+Finally, we provide the Right Hand Side (rhs) of our constraints.
+
 ```
 my.lp.constraints <- L_constraint(
 	L = my.lp.constraints.lhs,
     dir = rep_len("<=", rnum(my.lp.constraints.lhs)),
     rhs = c(60, 40, 80))
 ```
+In the ROI package, the OP function builds the optimization problem.  The standard format for this function is as follows:
+OP(objective, constraints, types, bounds, maximum = TRUE)
 
+Because we have already built the objective and constraints, we only need to address the remaining variables in this function.
+
+Types: There are three options for types: C, I and B.  C is for continuous numbers.  In this context, continuous numbers are numbers that have decimals.  I stands for integer and these are whole numbers and finally, B is for binary or an output of 0,1.  
+
+Bounds: the default is to have no bounds and we are using the default
+
+Maximum:  The goal here is to maximize, so this value is set to true.
 ```
 LP <- OP(my.lp.objective,my.lp.constraints,max = TRUE,
 	types = rep_len("I",length(my.lp.constraints)))
