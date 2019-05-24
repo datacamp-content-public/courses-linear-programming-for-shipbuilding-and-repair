@@ -1,6 +1,8 @@
 ---
 title: Insert title here
 key: 1f0bbabb9abe9a112b58452e57b698ed
+video_link:
+  mp3: https://assets.datacamp.com/production/repositories/5020/datasets/be5197ecebed0705d03427f9d8425a5299ed99eb/Du_gamla_du_fria.mp3
 
 ---
 ## LP Problem Walk Through of Solution in R
