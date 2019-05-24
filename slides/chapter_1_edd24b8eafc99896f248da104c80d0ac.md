@@ -12,10 +12,6 @@ type: "TitleSlide"
 key: "d8f53a346e"
 ```
 
-`@part1`
-
-
-
 `@lower_third`
 
 name: Bill Young, MBA & Jeremy Gerdes
@@ -23,7 +19,6 @@ title: Health Physicists at NNSY
 
 
 `@script`
-
 
 
 ---
