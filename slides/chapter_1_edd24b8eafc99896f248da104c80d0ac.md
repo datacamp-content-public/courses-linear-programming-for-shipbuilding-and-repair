@@ -80,10 +80,12 @@ key: "096a744d9e"
 ```
 
 `@part1`
-Linear programming is an optimization technique that uses a few inputs to determine the best way to accomplish a task.  The task could be to increase throughput, decrease cost or minimize downtime.  The inputs to linear programming are:
-- What is being optimized?
-- What are the constraints?
-- What are the variables?
+An optimization technique
+  The inputs to linear programming are:
+- What is being optimized?{{1}}
+- What are the constraints?{{2}}
+- What are the variables?{{3}}
+
 
 The output of linear programming is the optimal configuration to accomplish the optimization.  An example below shows the benefits of using linear programming compared to assumptions of what is best.
 
@@ -91,7 +93,7 @@ For this course we are working through the text [Illustrated Guide to Linear Pro
 
 
 `@script`
-
+Linear programming is an optimization technique that uses a few inputs to determine the best way to accomplish a task.  The task could be to increase throughput, decrease cost or minimize downtime.
 
 
 ---

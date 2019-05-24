@@ -29,14 +29,14 @@ data_dir <- Sys.getenv("DATADIR")
 dir.create(data_dir)
 
 #' @param x Amazon S3 URL of the dataset, as a string. 
-download_data <- function(x,filename) {
+download_data <- function(x,filename=basename(x)) {
   download.file(
     x,
     file.path(data_dir, filename)
   )
 }
 
- download_data(
-   "https://data.transportation.gov/api/views/keg4-3bc2/rows.csv","bordertransport.csv"
- )
+# download_data(
+#   "https://data.transportation.gov/api/views/keg4-3bc2/rows.csv","bordertransport.csv"
+# )
 #?accessType=DOWNLOAD"
