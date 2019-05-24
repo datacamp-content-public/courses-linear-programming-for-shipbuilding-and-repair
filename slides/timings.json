@@ -113,5 +113,44 @@
       }
     }
   ],
-  "slides/chapter_2_71fdd7c68c7a12a7258ab279408de5d8.md": []
+  "slides/chapter_2_71fdd7c68c7a12a7258ab279408de5d8.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    }
+  ],
+  "slides/chapter_3_588c3b8dddfec6991a79e763c75641a1.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    }
+  ],
+  "slides/chapter_4_1f0bbabb9abe9a112b58452e57b698ed.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 1
+      }
+    },
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    }
+  ]
 }
